@@ -103,7 +103,8 @@ function App() {
     Auth.confirmSignUp(username, otp, {
       forceAliasCreation: true
     }).catch(e => {
-      setMessage('probably wrong otp code?');
+      setState('notLogin');
+      setMessage('Oops, probably wrong otp code?');
       console.log(e);
     });
   }
