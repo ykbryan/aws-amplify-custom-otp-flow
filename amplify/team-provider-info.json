@@ -1,0 +1,27 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-react-custom-otp-dev-142252-authRole",
+            "UnauthRoleArn": "arn:aws:iam::566416766292:role/amplify-react-custom-otp-dev-142252-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::566416766292:role/amplify-react-custom-otp-dev-142252-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-react-custom-otp-dev-142252-deployment",
+            "UnauthRoleName": "amplify-react-custom-otp-dev-142252-unauthRole",
+            "StackName": "amplify-react-custom-otp-dev-142252",
+            "StackId": "arn:aws:cloudformation:us-east-1:566416766292:stack/amplify-react-custom-otp-dev-142252/fb24eb90-304c-11ea-a41e-0af77bd56d08",
+            "AmplifyAppId": "d239lg776jf5az"
+        },
+        "categories": {
+            "function": {
+                "reactcustomotp9439475494394754CreateAuthChallenge": {
+                    "CHALLENGEANSWER": ""
+                },
+                "reactcustomotp9439475494394754DefineAuthChallenge": {},
+                "reactcustomotp9439475494394754VerifyAuthChallengeResponse": {}
+            },
+            "auth": {
+                "reactcustomotp9439475494394754": {}
+            }
+        }
+    }
+}

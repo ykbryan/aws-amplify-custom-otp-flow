@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "boilerplate-define-challenge"
+    ],
+    "parentResource": "reactcustomotp9439475494394754",
+    "functionName": "reactcustomotp9439475494394754DefineAuthChallenge",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "DefineAuthChallenge.json.ejs",
+    "roleName": "reactcustomotp9439475494394754DefineAuthChallenge",
+    "skipEdit": true,
+    "resourceName": "reactcustomotp9439475494394754DefineAuthChallenge"
+}

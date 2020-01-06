@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "boilerplate-verify"
+    ],
+    "parentResource": "reactcustomotp9439475494394754",
+    "functionName": "reactcustomotp9439475494394754VerifyAuthChallengeResponse",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+    "roleName": "reactcustomotp9439475494394754VerifyAuthChallengeResponse",
+    "skipEdit": true,
+    "resourceName": "reactcustomotp9439475494394754VerifyAuthChallengeResponse"
+}
