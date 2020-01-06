@@ -1,5 +1,4 @@
 exports.handler = (event, context) => {
-  console.log(event.request);
   if (
     event.request.privateChallengeParameters.answer ===
     event.request.challengeAnswer
