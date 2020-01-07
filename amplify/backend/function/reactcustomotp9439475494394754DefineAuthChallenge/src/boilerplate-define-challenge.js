@@ -1,4 +1,5 @@
 exports.handler = (event, context) => {
+  console.log(event.request);
   if (event.request.session.length === 0) {
     event.response.issueTokens = false;
     event.response.failAuthentication = false;

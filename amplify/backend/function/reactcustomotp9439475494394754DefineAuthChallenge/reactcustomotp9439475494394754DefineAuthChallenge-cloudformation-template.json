@@ -95,7 +95,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-react-custom-otp-dev-142252-deployment",
-					"S3Key": "amplify-builds/reactcustomotp9439475494394754DefineAuthChallenge-58644430634652536774-build.zip"
+					"S3Key": "amplify-builds/reactcustomotp9439475494394754DefineAuthChallenge-42497972666b63674f4e-build.zip"
 				}
 			}
 		},
