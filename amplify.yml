@@ -9,7 +9,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install
+        - npm install --production
     build:
       commands:
         - npm run build
@@ -25,9 +25,7 @@ test:
     preTest:
       commands:
         - npm ci
-        - npm install wait-on
-        - npm install
-        - 'npm start & npx wait-on http://localhost:3000'
+        - node_modules/.bin/selenium-standalone install
     test:
       commands:
         - 'node_modules/.bin/wdio run wdio.conf.js'
