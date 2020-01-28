@@ -1,0 +1,32 @@
+version: 0.1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - yarn install
+    build:
+      commands:
+        - yarn run build
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+test:
+  phases:
+    preTest:
+      commands:
+        - npm ci
+        - npm install wait-on
+        - npm install
+        - 'npm start & npx wait-on http://localhost:3000'
+    test:
+      commands:
+        - 'node_modules/.bin/wdio run wdio.conf.js'
+  artifacts:
+    baseDirectory: .
+    configFilePath: 'wdio.conf.js'
+    files:
+      - 'test/**/*.js'
