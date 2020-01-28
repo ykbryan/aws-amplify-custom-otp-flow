@@ -40,9 +40,9 @@ test:
         - echo $WDIO_PATH
     test:
       commands:
-        - 'node_modules/.bin/wdio run wdio.conf.js'
+        - 'node_modules/.bin/wdio run wdio.server.conf.js'
   artifacts:
     baseDirectory: .
-    configFilePath: 'wdio.conf.js'
+    configFilePath: 'wdio.server.conf.js'
     files:
       - '**/*'
